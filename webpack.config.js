@@ -10,10 +10,10 @@ module.exports = webpackConfigEnv => {
 
   return webpackMerge.smart(defaultConfig, {
     // modify the webpack config however you'd like to by adding to this object
+    // antd: "antd"
     externals: {
       react: "react",
-      "react-dom": "react-dom",
-      antd: "antd"
+      "react-dom": "react-dom"
     }
   });
 };

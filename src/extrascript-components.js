@@ -11,21 +11,22 @@ import {
   Row,
   Col,
   Checkbox,
-  AutoComplete
+  AutoComplete,
+  Calendar,
+  Badge,
+  Avatar,
+  Dropdown
 } from "antd";
-import "./set-public-path";
 import "antd/dist/antd.css";
+import "./set-public-path";
 
 // Anything exported from this file is importable by other in-browser modules.
 // export function publicApiFunction() {}
-
-const { Item } = Menu;
 
 export {
   Button,
   Layout,
   Menu,
-  Item as MenuItem,
   Breadcrumb,
   Tooltip,
   Form,
@@ -35,5 +36,9 @@ export {
   Row,
   Col,
   Checkbox,
-  AutoComplete
+  AutoComplete,
+  Calendar,
+  Badge,
+  Avatar,
+  Dropdown
 };
