@@ -19,7 +19,7 @@ import {
 } from "antd";
 import "antd/dist/antd.css";
 import "./set-public-path";
-
+import { isUserSignedIn, signIn, signOut } from "./auth";
 // Anything exported from this file is importable by other in-browser modules.
 // export function publicApiFunction() {}
 
@@ -40,5 +40,8 @@ export {
   Calendar,
   Badge,
   Avatar,
-  Dropdown
+  Dropdown,
+  isUserSignedIn,
+  signIn,
+  signOut
 };
